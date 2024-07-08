@@ -1,7 +1,7 @@
 from src.constants import CONFIG_FILE_PATH
 from src.utils.common import read_yaml, create_directories,save_json
 from src.entity.config_entity import DataIngestionConfig
-import logger
+from src import logger
 
 
 

@@ -10,7 +10,7 @@ from box import ConfigBox
 from pathlib import Path
 from typing import Any
 import base64
-
+from src import logger
 
 
 @ensure_annotations
